@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:ital,wght@0,400;1,700&family=Lexend+Deca:wght@300;400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700;8..60,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #CBCDA9;
+    height: 53px;
+}
+
+.menu{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.menu a{
+    font-size: 18px;
+    font-family: inter;
+    color: black;
+    text-decoration: none;
+    margin-right: 52px;
+}
+
+.menu a span{
+    font-weight: 700;
+}
+
+h1{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+    font-family: source serif;
+    font-weight: 700;
+    padding-top: 76px;
+}
+
+p{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    font-family: inter;
+    font-size: 24px;
+    font-family: lato;
+    font-weight: 600;
+}
+
+#location{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 83px;
+    padding-bottom: 224px;
+    margin: auto;
+}
+
+.box{
+    background-color: #201F1F;
+    color: white;
+    height: 563px;
+    box-shadow: 4px 8px 16px grey;
+    width: 866px;
+    padding-left: 34.5px;
+    position: absolute;
+}
+
+h3{
+    padding-top: 80px;
+    font-size: 32px;
+    font-family: Source Serif;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+img{
+    margin-top: 5px;
+    margin-left: 467px;
+    width: 433px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    margin-top: 11.5px;
+}
+
+#name{
+    background: #343333; 
+    border-radius: 2.21px; 
+    border: 0.37px #8D8D8D solid; 
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#message{
+    background: #343333; 
+    border-radius: 2.21px; 
+    border: 0.37px #8D8D8D solid; 
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 2px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#submit{ 
+    padding: 9px 25px;
+    background: #F3F25B; 
+    border-radius: 3px;
+}
+
+.label{
+    color: #CCC6C6; 
+    font-family: Lexend Deca;
+    font-size: 12px;
+    font-weight: 300;
+}
