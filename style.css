@@ -137,12 +137,13 @@ article{
 .view{
     margin-top: 25px;
     padding: 17px 82px;
-    border: none;
+    border-color: #F3F25B;
     border-radius: 10px;
     color: black;
     font-size: 18px;
     font-family: Lato;
     font-weight: 600;
     background-color: #F3F25B;
+    box-shadow: 2px 2px 10px rgb(170, 170, 170);
 }
 
